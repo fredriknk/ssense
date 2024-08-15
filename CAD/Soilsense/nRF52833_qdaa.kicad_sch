@@ -3019,7 +3019,7 @@
 			(uuid "d0531003-3527-4158-bd6c-5daba3c2554f")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR046")
 					(unit 1)
@@ -3240,7 +3240,7 @@
 			(uuid "605573ca-3a53-4ad3-8ed0-03cbbcdf6f87")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C17")
 					(unit 1)
@@ -3461,7 +3461,7 @@
 			(uuid "db01b4ad-e1a9-4084-8890-51be316df7cd")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C7")
 					(unit 1)
@@ -3526,7 +3526,7 @@
 			(uuid "cd66025e-f30f-4177-b5c8-3dc2c9f7f85d")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR043")
 					(unit 1)
@@ -3591,7 +3591,7 @@
 			(uuid "2be362cf-d295-424a-a8fc-2a7d81a9a661")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR039")
 					(unit 1)
@@ -3812,7 +3812,7 @@
 			(uuid "d8b63946-8d2a-450f-a5e1-dca529ad8abd")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C12")
 					(unit 1)
@@ -3877,7 +3877,7 @@
 			(uuid "d65ae08c-d7ae-4079-b84a-2772e91a3ca0")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR022")
 					(unit 1)
@@ -3942,7 +3942,7 @@
 			(uuid "755292a7-1d26-4129-bac1-81cdc7c4c3f6")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR042")
 					(unit 1)
@@ -4007,7 +4007,7 @@
 			(uuid "e7645052-74f5-415a-a203-54ab5acaef7a")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR025")
 					(unit 1)
@@ -4237,7 +4237,7 @@
 			(uuid "13d0cbc6-42d3-47f8-afec-670aca56b923")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C22")
 					(unit 1)
@@ -4439,7 +4439,7 @@
 			(uuid "ebde70ea-2a88-433b-91a3-b95b7d830697")
 		)
 		(instances
-			(project ""
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "AE1")
 					(unit 1)
@@ -4504,7 +4504,7 @@
 			(uuid "adefbcc3-9f19-413f-81ee-00fc9b6dd86a")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR044")
 					(unit 1)
@@ -4569,7 +4569,7 @@
 			(uuid "52fcb707-1f3e-4e3d-9569-8eb8cc3e87df")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR051")
 					(unit 1)
@@ -4634,7 +4634,7 @@
 			(uuid "53131601-ee8c-4b26-857d-4ce0594c1a3c")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR023")
 					(unit 1)
@@ -4847,7 +4847,7 @@
 			(uuid "7fc93d8c-a20a-4363-9591-2a80675c72c5")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C16")
 					(unit 1)
@@ -4912,7 +4912,7 @@
 			(uuid "dd10f18a-ff1e-4603-87b4-605098c0a463")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR032")
 					(unit 1)
@@ -5133,7 +5133,7 @@
 			(uuid "b9847f18-aabd-4db5-aeb6-8c461719ceab")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C19")
 					(unit 1)
@@ -5463,7 +5463,7 @@
 			(uuid "50d948b3-a780-4fa5-8ef2-f37f83c5ccf0")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "U2")
 					(unit 1)
@@ -5676,7 +5676,7 @@
 			(uuid "88e858b2-de61-4ce5-9331-e2e4c4c5b966")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L2")
 					(unit 1)
@@ -5741,7 +5741,7 @@
 			(uuid "f10ad7a4-ea11-4afc-b689-e86fd3c11442")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR050")
 					(unit 1)
@@ -5971,7 +5971,7 @@
 			(uuid "8b8d3b94-6d8d-4dbb-9fdb-1433be3be37f")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C21")
 					(unit 1)
@@ -6036,7 +6036,7 @@
 			(uuid "ad74f301-09b7-481c-9162-2fa02caf3e4d")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR033")
 					(unit 1)
@@ -6101,7 +6101,7 @@
 			(uuid "ee3e4156-604a-4c1f-ba13-8a923c82d451")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR041")
 					(unit 1)
@@ -6322,7 +6322,7 @@
 			(uuid "9799c14e-1c84-4513-b910-3f1fde189405")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C11")
 					(unit 1)
@@ -6388,7 +6388,7 @@
 			(uuid "266a1814-6968-453d-984f-1c10ce15931b")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR027")
 					(unit 1)
@@ -6453,7 +6453,7 @@
 			(uuid "8cae1592-52b3-4be0-bf31-2870fbb0ee6a")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR028")
 					(unit 1)
@@ -6518,7 +6518,7 @@
 			(uuid "881c7d47-a9a8-4697-adfd-17aa76b7efbf")
 		)
 		(instances
-			(project ""
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR020")
 					(unit 1)
@@ -6739,7 +6739,7 @@
 			(uuid "cf4e5687-80c3-48ff-b5d6-235b8ca776a4")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C6")
 					(unit 1)
@@ -6804,7 +6804,7 @@
 			(uuid "da4652b2-79f2-4a0b-b260-86b18c106689")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR036")
 					(unit 1)
@@ -7017,7 +7017,7 @@
 			(uuid "afa98599-a6b7-4909-8639-bfd6b72c3ca8")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C10")
 					(unit 1)
@@ -7083,7 +7083,7 @@
 			(uuid "64916511-996c-49e4-8ca0-645d184bec9b")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR034")
 					(unit 1)
@@ -7148,7 +7148,7 @@
 			(uuid "d4cecb72-f226-47b8-97d3-aad1b42dd55d")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR037")
 					(unit 1)
@@ -7361,7 +7361,7 @@
 			(uuid "9ecdb837-89a9-48c7-b2ca-e36958db91f2")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C9")
 					(unit 1)
@@ -7591,7 +7591,7 @@
 			(uuid "52784e00-cab4-4415-9d1c-61ebe166571b")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C23")
 					(unit 1)
@@ -7656,7 +7656,7 @@
 			(uuid "bf06e73a-ba78-4e18-9971-b88b96617209")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR040")
 					(unit 1)
@@ -7878,7 +7878,7 @@
 			(uuid "58119ea6-418f-4bca-b4e3-175d3f9d43f5")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "Y2")
 					(unit 1)
@@ -7960,7 +7960,7 @@
 			(uuid "bcba1de6-8bd5-433a-b9f8-57eea98fb3bb")
 		)
 		(instances
-			(project ""
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "Y1")
 					(unit 1)
@@ -8026,7 +8026,7 @@
 			(uuid "33eb5f50-24b6-4b81-a42c-544d0755141f")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR035")
 					(unit 1)
@@ -8061,7 +8061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRU8028_8.0x8.0mm"
+		(property "Footprint" "inductor:L_Bourns_SDSS604A"
 			(at 186.69 76.2 0)
 			(effects
 				(font
@@ -8088,7 +8088,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SDR0805-4R7ML"
+		(property "MPN" "SDR0604A-4R7ML"
 			(at 196.342 79.502 0)
 			(effects
 				(font
@@ -8246,7 +8246,7 @@
 			(uuid "26534023-92c4-4f78-b87d-f608ac15e7a0")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L3")
 					(unit 1)
@@ -8466,7 +8466,7 @@
 			(uuid "9541b47d-c5b0-4324-ad2d-0f6ba3f73237")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L5")
 					(unit 1)
@@ -8531,7 +8531,7 @@
 			(uuid "a92ef307-4243-4f90-8274-db71097898fe")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR038")
 					(unit 1)
@@ -8752,7 +8752,7 @@
 			(uuid "145fd9e2-8516-41bc-aa0b-2ebca5e81834")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C20")
 					(unit 1)
@@ -8973,7 +8973,7 @@
 			(uuid "3e174bda-ffb0-4b56-a7cd-2a72640dac34")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C5")
 					(unit 1)
@@ -9194,7 +9194,7 @@
 			(uuid "daff0158-bc91-4503-9bd8-bd3b95ff03ab")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C18")
 					(unit 1)
@@ -9414,7 +9414,7 @@
 			(uuid "85ea1646-1cb5-4ab1-8dda-a75100947d9a")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L4")
 					(unit 1)
@@ -9480,7 +9480,7 @@
 			(uuid "29a6e0e4-1060-4745-90cc-7ba4e9009075")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR029")
 					(unit 1)
@@ -9546,7 +9546,7 @@
 			(uuid "fe170d36-0ff0-4763-b5f0-0bf856eb64cb")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR031")
 					(unit 1)
@@ -9611,7 +9611,7 @@
 			(uuid "3fb614ce-3185-43e1-a39d-872c1a9db9a5")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR047")
 					(unit 1)
@@ -9676,7 +9676,7 @@
 			(uuid "fae7ee1d-ac8f-4918-8c8f-e678c534654a")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR026")
 					(unit 1)
@@ -9889,7 +9889,7 @@
 			(uuid "3ae0cbc6-45cc-4c46-bbca-81c373806352")
 		)
 		(instances
-			(project ""
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L1")
 					(unit 1)
@@ -10110,7 +10110,7 @@
 			(uuid "1ded0b8e-2cd9-49ab-aca5-1d3f75b2836e")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C8")
 					(unit 1)
@@ -10324,7 +10324,7 @@
 			(uuid "1ac4fc5f-1a18-4425-90df-dc30b6ea93fa")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L6")
 					(unit 1)
@@ -10537,7 +10537,7 @@
 			(uuid "6e0d4e5e-da5c-4153-866d-5c233f308b8e")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C15")
 					(unit 1)
@@ -10757,7 +10757,7 @@
 			(uuid "ebe6c8a1-a19a-40ac-8442-95d66a6de775")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "L7")
 					(unit 1)
@@ -10970,7 +10970,7 @@
 			(uuid "548f47ae-85e6-4a6f-bab7-bee89fa02a2b")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "C13")
 					(unit 1)
@@ -11035,7 +11035,7 @@
 			(uuid "995a95e1-61db-4608-849c-5235195fe0f0")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR045")
 					(unit 1)
@@ -11101,7 +11101,7 @@
 			(uuid "85dee4f2-a8a9-443d-9942-662d77f0794b")
 		)
 		(instances
-			(project ""
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR021")
 					(unit 1)
@@ -11166,7 +11166,7 @@
 			(uuid "1b3c394b-9094-4253-95f9-b23a4da99de6")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR024")
 					(unit 1)
@@ -11231,7 +11231,7 @@
 			(uuid "709a8348-930e-457a-8b7a-4f28b9ca9866")
 		)
 		(instances
-			(project "Methanesense"
+			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/91485ecb-910b-4e6e-9587-c4fee793138f"
 					(reference "#PWR030")
 					(unit 1)

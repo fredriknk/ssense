@@ -1644,151 +1644,6 @@
 				)
 			)
 		)
-		(symbol "Diode:LL4148"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LL4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, MiniMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*MiniMELF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LL4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LL4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -3055,6 +2910,12 @@
 		)
 	)
 	(junction
+		(at 44.45 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0246a357-90d3-48cd-bc60-9826d180d353")
+	)
+	(junction
 		(at 186.69 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3073,7 +2934,7 @@
 		(uuid "21ac6971-7048-4a4d-b61d-b5e332e7d18e")
 	)
 	(junction
-		(at 213.36 140.97)
+		(at 218.44 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f0a70bf-de13-412d-b607-1f4fc7e724a5")
@@ -3085,16 +2946,16 @@
 		(uuid "3ace443a-346f-4232-ac95-7cf5ed38fae1")
 	)
 	(junction
+		(at 199.39 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4132949f-40ed-467e-9cbc-05aedf199eb6")
+	)
+	(junction
 		(at 57.15 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a62102d-0d82-44bc-8395-22d35f02cbe8")
-	)
-	(junction
-		(at 44.45 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cb00a75-a837-4d6e-8da9-d50b744ecbfe")
 	)
 	(junction
 		(at 130.81 124.46)
@@ -3109,16 +2970,22 @@
 		(uuid "7e0ee49f-a954-4fc6-bd45-519f4b161ed2")
 	)
 	(junction
-		(at 224.79 140.97)
+		(at 229.87 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "834e49d8-3641-470b-acb6-cb20c0e94aa2")
 	)
 	(junction
-		(at 228.6 149.86)
+		(at 233.68 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c1e34d6-d57c-43ee-b28d-0d734120119d")
+	)
+	(junction
+		(at 44.45 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a7d09c-d31c-48fe-bc3f-d09b7642818c")
 	)
 	(junction
 		(at 44.45 120.65)
@@ -3139,10 +3006,22 @@
 		(uuid "bd6c4ceb-1423-46cf-89e9-9affda59c34e")
 	)
 	(junction
+		(at 212.09 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d07b750a-1d2c-465a-baf1-71a158023b63")
+	)
+	(junction
 		(at 187.96 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a905ee-8d43-4b7e-add2-694b221d5029")
+	)
+	(junction
+		(at 227.33 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc2533d4-aa60-42f3-ae23-6815fc523ef8")
 	)
 	(junction
 		(at 194.31 132.08)
@@ -3151,13 +3030,19 @@
 		(uuid "dc460789-7c80-4ee8-ac82-3bd180726142")
 	)
 	(junction
+		(at 232.41 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd4467c1-4e2d-4c98-a424-ca3d5eba7e30")
+	)
+	(junction
 		(at 121.92 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edfb08d1-bcfe-459a-8074-a915e9359d72")
 	)
 	(junction
-		(at 231.14 140.97)
+		(at 236.22 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f370eeca-258a-48b8-a896-a9c4d95bf0bc")
@@ -3167,6 +3052,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b25fde-c264-45fb-bfb9-7f6e45749054")
+	)
+	(wire
+		(pts
+			(xy 215.9 118.11) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b46937-5f80-460a-b948-bdd6e74bfd9b")
+	)
+	(wire
+		(pts
+			(xy 201.93 140.97) (xy 203.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e9d8ed-abf4-49b9-a8a5-cf7bb6ac58e0")
 	)
 	(wire
 		(pts
@@ -3180,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 149.86) (xy 231.14 149.86)
+			(xy 233.68 149.86) (xy 236.22 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3220,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 149.86) (xy 228.6 153.67)
+			(xy 233.68 149.86) (xy 233.68 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3250,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 143.51) (xy 224.79 140.97)
+			(xy 229.87 143.51) (xy 229.87 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 128.27) (xy 199.39 132.08)
+			(xy 199.39 128.27) (xy 199.39 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3287,16 +3192,6 @@
 			(type default)
 		)
 		(uuid "20471d60-5b20-48a7-baf6-a48164e3e0cf")
-	)
-	(wire
-		(pts
-			(xy 134.62 30.48) (xy 137.16 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2180bf03-b31b-4232-8968-f0f5e7e5acd3")
 	)
 	(wire
 		(pts
@@ -3350,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 140.97) (xy 234.95 140.97)
+			(xy 236.22 140.97) (xy 240.03 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3325,7 @@
 	)
 	(polyline
 		(pts
-			(xy 252.73 102.87) (xy 172.72 102.87)
+			(xy 257.175 102.87) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.65) (xy 44.45 125.73)
+			(xy 44.45 120.65) (xy 44.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3385,7 @@
 	)
 	(polyline
 		(pts
-			(xy 252.73 102.87) (xy 252.73 161.29)
+			(xy 257.175 102.87) (xy 257.175 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3560,6 +3455,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 124.46) (xy 227.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc1d496-ee73-45f3-81fe-d7d569720377")
+	)
+	(wire
+		(pts
 			(xy 41.91 181.61) (xy 41.91 185.42)
 		)
 		(stroke
@@ -3580,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 148.59) (xy 224.79 149.86)
+			(xy 229.87 148.59) (xy 229.87 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3650,7 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 140.97) (xy 224.79 140.97)
+			(xy 228.6 140.97) (xy 229.87 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3670,7 +3575,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.72 161.29) (xy 252.73 161.29)
+			(xy 172.72 161.29) (xy 257.175 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3728,6 +3633,16 @@
 		)
 		(uuid "76b338ab-7186-45b7-a52f-7eedbcf37f24")
 	)
+	(wire
+		(pts
+			(xy 227.33 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78436931-ca05-4fb3-8176-1982a52d85f0")
+	)
 	(polyline
 		(pts
 			(xy 55.88 151.13) (xy 55.88 196.85)
@@ -3737,6 +3652,16 @@
 			(type default)
 		)
 		(uuid "79da1604-863c-4412-bf42-4a757ed7e2b7")
+	)
+	(wire
+		(pts
+			(xy 233.68 124.46) (xy 232.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0c8987-a259-47d3-b162-a2afe250e92d")
 	)
 	(wire
 		(pts
@@ -3780,6 +3705,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 140.97) (xy 218.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859e4130-cb65-4ca5-9ed4-7da5891fc639")
+	)
+	(wire
+		(pts
+			(xy 232.41 124.46) (xy 232.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87841905-cd1c-46ba-ae58-b07fe1b310d3")
+	)
+	(wire
+		(pts
 			(xy 127 163.83) (xy 127 165.1)
 		)
 		(stroke
@@ -3820,7 +3765,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 149.86) (xy 231.14 148.59)
+			(xy 236.22 149.86) (xy 236.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3847,6 +3792,16 @@
 			(type default)
 		)
 		(uuid "94d6db64-a847-4656-9325-90fe172b5cb3")
+	)
+	(wire
+		(pts
+			(xy 232.41 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97192a1f-a3a3-4e6a-aa57-db3b4024fac4")
 	)
 	(wire
 		(pts
@@ -3880,6 +3835,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 129.54) (xy 199.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef4a4fc-a731-4196-91f7-d6f95240bdb7")
+	)
+	(wire
+		(pts
 			(xy 146.05 118.11) (xy 146.05 119.38)
 		)
 		(stroke
@@ -3907,6 +3872,16 @@
 			(type default)
 		)
 		(uuid "a57f07a9-d712-428f-8feb-8fba8619df4b")
+	)
+	(wire
+		(pts
+			(xy 34.29 127) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98cbf9b-7ce3-44c7-9fd3-e34ba556905f")
 	)
 	(wire
 		(pts
@@ -3940,13 +3915,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 125.73) (xy 44.45 128.27)
+			(xy 227.33 123.19) (xy 227.33 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad373513-7231-44c4-a934-4079f1c26f4c")
+		(uuid "ab8d43f6-b3ba-4d32-b6ff-1e6c6fc7bb21")
 	)
 	(polyline
 		(pts
@@ -3977,16 +3952,6 @@
 			(type default)
 		)
 		(uuid "afee896f-3131-4022-8b13-a06a24be9a90")
-	)
-	(wire
-		(pts
-			(xy 203.2 140.97) (xy 201.93 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1df3d22-36d8-42a7-b940-41f06ffd5c95")
 	)
 	(wire
 		(pts
@@ -4130,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 149.86) (xy 224.79 149.86)
+			(xy 233.68 149.86) (xy 229.87 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4290,7 +4255,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 140.97) (xy 231.14 140.97)
+			(xy 215.9 129.54) (xy 199.39 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd00cc7d-b63b-4c23-b7b8-d485c74d275a")
+	)
+	(wire
+		(pts
+			(xy 229.87 140.97) (xy 236.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4300,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 140.97) (xy 215.9 140.97)
+			(xy 218.44 140.97) (xy 220.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4390,7 +4365,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 140.97) (xy 213.36 140.97)
+			(xy 208.28 140.97) (xy 212.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4407,6 +4382,16 @@
 			(type default)
 		)
 		(uuid "ea624618-3e38-4cd3-884d-08fe3716e633")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea67208f-3467-4309-b793-6c3695092fc7")
 	)
 	(wire
 		(pts
@@ -4427,6 +4412,16 @@
 			(type default)
 		)
 		(uuid "ed04bd32-d07d-4963-96af-410980f894ce")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 44.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef79acc6-95db-4c7d-84a4-a7bff2407195")
 	)
 	(polyline
 		(pts
@@ -4450,7 +4445,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 44.45 125.73)
+			(xy 35.56 123.19) (xy 44.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4480,7 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 140.97) (xy 231.14 143.51)
+			(xy 236.22 140.97) (xy 236.22 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4654,9 +4649,9 @@
 		)
 		(uuid "3732e5b2-4d6e-4870-9da2-e392bcb06800")
 	)
-	(text "Audiovisual Reverse current detector"
+	(text "Smokey sacrificial\nReverse current detector"
 		(exclude_from_sim no)
-		(at 74.676 191.516 0)
+		(at 68.326 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4797,7 +4792,7 @@
 	)
 	(global_label "SENS_OUT_HF"
 		(shape input)
-		(at 234.95 140.97 0)
+		(at 240.03 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4807,7 +4802,7 @@
 		)
 		(uuid "0bb68c34-85e0-44bd-89cf-9388925567fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.1624 140.97 0)
+			(at 255.2424 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4902,7 @@
 	)
 	(global_label "CPARA"
 		(shape input)
-		(at 41.91 125.73 180)
+		(at 35.56 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4917,7 +4912,7 @@
 		)
 		(uuid "24eb9a13-4196-43a2-a0cc-4a963426fda7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.5918 125.73 0)
+			(at 27.2418 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,28 +5089,6 @@
 		(uuid "4eb566bf-60b8-41d6-971c-ae90dc3581d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.2467 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "1.09"
-		(shape input)
-		(at 134.62 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "502b2b4b-a4d3-4335-bdd8-22acc9f7e447")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.4015 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,6 +5340,28 @@
 			)
 		)
 	)
+	(global_label "SENS_OUT_HF_REF"
+		(shape input)
+		(at 233.68 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "892cab10-5ccf-45b7-b981-b54f4aca8a7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.0218 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDCLK"
 		(shape input)
 		(at 86.36 38.1 0)
@@ -5521,28 +5516,6 @@
 			)
 		)
 	)
-	(global_label "1.09"
-		(shape input)
-		(at 86.36 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bdd64167-01de-46cf-99ea-e1a8eeea709b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.5785 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 124.46 132.08 270)
@@ -5589,6 +5562,28 @@
 	)
 	(global_label "BTN1"
 		(shape input)
+		(at 86.36 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e40fc9f3-7e01-47fa-83d6-3f3b9853968b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.4618 54.5306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENS_OUT_HF_REF"
+		(shape input)
 		(at 50.8 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5597,9 +5592,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e40fc9f3-7e01-47fa-83d6-3f3b9853968b")
+		(uuid "ebb5d5c8-dae3-4685-9d26-78a4f7a49239")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.6982 50.7206 0)
+			(at 30.4582 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,6 +5667,217 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 205.74 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "000a0afe-418d-4abe-a824-8ace5189f69a")
+		(property "Reference" "R9"
+			(at 205.74 135.763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 138.0744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 205.74 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 205.74 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d1aae3-9130-4e15-b885-a307fca01af2")
+		)
+		(pin "2"
+			(uuid "41ca1dbc-ee35-42d9-8e09-e573a74daa86")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "R9")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6147,6 +6353,219 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1446e213-af1a-43c8-ab59-42571094b06c")
+		(property "Reference" "C10"
+			(at 234.7468 127.1016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 234.7468 129.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1523"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e542c9-5a40-47a6-90bb-7d3294e0ae24")
+		)
+		(pin "2"
+			(uuid "69ff3e76-4a7f-4f62-98a7-cc89d7e4dd3f")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "B3U-1000P:B3U-1000P")
 		(at 104.14 172.72 270)
 		(unit 1)
@@ -6416,6 +6835,71 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "RST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18e0ae25-04cd-4569-8043-c811f7d611e6")
+		(property "Reference" "#PWR059"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.217 152.9842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66f76060-d139-4ce7-8388-4dcee7345850")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7249,6 +7733,225 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 34.29 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38236376-9be3-4ac6-8c1c-e79ded315512")
+		(property "Reference" "D5"
+			(at 27.686 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Zener Prot"
+			(at 27.94 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3cc9a26-d613-4381-86c1-1fb685ea0fbf")
+		)
+		(pin "2"
+			(uuid "1035bc9f-14d5-4fa1-998f-79256b5468b4")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 172.72 45.72 270)
 		(unit 1)
@@ -7310,6 +8013,219 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 227.33 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39c80fec-a436-4dae-8972-79c16b1b6d51")
+		(property "Reference" "R11"
+			(at 225.6028 129.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 225.6028 127.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.108 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec254f91-5e49-41f7-8a0a-aae281cb0489")
+		)
+		(pin "2"
+			(uuid "df7297e7-f790-4756-ad24-f19ff942effd")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7610,7 +8526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "snapeda:TR8"
+		(property "Footprint" "Soilsense:PHOTOTRANS_1708Metric"
 			(at 154.94 170.18 0)
 			(effects
 				(font
@@ -7629,15 +8545,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
 			(at 149.86 172.72 0)
 			(effects
 				(font
@@ -7773,6 +8680,23 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ALS-PT19-315C/L177/TR8"
 			(at 149.86 172.72 0)
 			(effects
 				(font
@@ -8683,7 +9607,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 224.79 146.05 0)
+		(at 229.87 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8691,7 +9615,7 @@
 		(dnp no)
 		(uuid "5bd9e9ba-c622-4e97-aebc-b32a66c9379f")
 		(property "Reference" "C4"
-			(at 227.1268 144.8816 0)
+			(at 232.2068 144.8816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +9624,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 227.1268 147.193 0)
+			(at 232.2068 147.193 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +9633,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +9642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +9651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +9660,7 @@
 			)
 		)
 		(property "LCSC" "C1523"
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +9669,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,7 +9678,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +9687,7 @@
 			)
 		)
 		(property "DATASHEET-URL" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +9696,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +9705,7 @@
 			)
 		)
 		(property "GERDER" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +9714,7 @@
 			)
 		)
 		(property "IR" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +9723,7 @@
 			)
 		)
 		(property "MOUNT" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +9732,7 @@
 			)
 		)
 		(property "PART-NUMBER" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +9741,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +9750,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +9759,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +9768,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +9777,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +9786,7 @@
 			)
 		)
 		(property "VALUE" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +9795,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
-			(at 224.79 146.05 0)
+			(at 229.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,6 +10171,219 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 227.33 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ce7fa4b-56a0-4824-9d11-8b017fd70d75")
+		(property "Reference" "R12"
+			(at 225.6028 121.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 225.6028 119.507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.108 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d57c12-9d4b-4638-b73a-db082280969b")
+		)
+		(pin "2"
+			(uuid "db9a7f11-be75-4723-8362-483493694806")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 57.15 125.73 0)
 		(unit 1)
@@ -9461,7 +10598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 153.67 0)
+		(at 233.68 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9469,7 +10606,7 @@
 		(dnp no)
 		(uuid "708f9010-e46e-4504-85df-61611550e25d")
 		(property "Reference" "#PWR019"
-			(at 228.6 160.02 0)
+			(at 233.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +10615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.727 158.0642 0)
+			(at 233.807 158.0642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +10623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 153.67 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +10632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 153.67 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +10641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 153.67 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,418 +10656,6 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:LL4148")
-		(at 49.53 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76e667df-7384-4301-8f40-9c54c5543d28")
-		(property "Reference" "D1"
-			(at 49.53 115.1636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LL4148"
-			(at 49.53 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 49.53 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205131645_JUXING-LL4148_C3011166.pdf"
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3011166"
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IR" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc7ea2fc-a96f-4501-b354-71106231ce2d")
-		)
-		(pin "2"
-			(uuid "1dd8c2e8-507d-469e-b4e7-3c6982167a73")
-		)
-		(instances
-			(project "Soilsense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 137.16 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "77cc89c9-3e20-43b9-b35d-e91b8322402a")
-		(property "Reference" "TP1"
-			(at 143.51 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.09"
-			(at 143.51 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 137.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IR" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a122ca1-9e38-45a9-b5a0-6781a1421e4e")
-		)
-		(instances
-			(project "Soilsense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11737,7 +12462,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 231.14 146.05 0)
+		(at 236.22 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11745,7 +12470,7 @@
 		(dnp no)
 		(uuid "9dae0afa-ee41-48c1-9b0f-9a0b5fe753f5")
 		(property "Reference" "R10"
-			(at 232.8672 144.8816 0)
+			(at 237.9472 144.8816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +12479,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 232.8672 147.193 0)
+			(at 237.9472 147.193 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11763,7 +12488,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.362 146.05 90)
+			(at 234.442 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,7 +12497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +12506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +12515,7 @@
 			)
 		)
 		(property "LCSC" "C26083"
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +12524,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +12533,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +12542,7 @@
 			)
 		)
 		(property "DATASHEET-URL" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +12551,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11835,7 +12560,7 @@
 			)
 		)
 		(property "GERDER" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +12569,7 @@
 			)
 		)
 		(property "IR" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +12578,7 @@
 			)
 		)
 		(property "MOUNT" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +12587,7 @@
 			)
 		)
 		(property "PART-NUMBER" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,7 +12596,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +12605,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +12614,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +12623,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +12632,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +12641,7 @@
 			)
 		)
 		(property "VALUE" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,7 +12650,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
-			(at 231.14 146.05 0)
+			(at 236.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,217 +12668,6 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:LL4148")
-		(at 62.23 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2a1869a-ab59-4359-92ef-8d4e1ff321b6")
-		(property "Reference" "D2"
-			(at 56.7436 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LL4148"
-			(at 59.055 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 57.785 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205131645_JUXING-LL4148_C3011166.pdf"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3011166"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IR" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc95f60e-97e2-4aa8-a8d6-b641a2e7aa74")
-		)
-		(pin "2"
-			(uuid "c7b54bdd-fa9e-4cbb-a8e5-7f403309fdd7")
-		)
-		(instances
-			(project "Soilsense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12641,6 +13155,71 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b094a00e-65d0-4936-9d9d-fb2c0f9958d0")
+		(property "Reference" "#PWR029"
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.457 135.2042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ed91ec-e969-4900-94ed-237c630c842e")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13272,32 +13851,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 205.74 140.97 270)
+		(lib_id "power:GND")
+		(at 34.29 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb5aa13b-501f-426e-8447-1ca562e35e99")
-		(property "Reference" "R9"
-			(at 205.74 146.177 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 205.74 143.8656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 139.192 90)
+		(uuid "bbcf9d13-600e-41e5-981a-4d1c7d917536")
+		(property "Reference" "#PWR058"
+			(at 34.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,8 +13868,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 140.97 0)
+		(property "Value" "GND"
+			(at 34.417 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,151 +13895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 205.74 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IR" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE" ""
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 205.74 140.97 0)
+			(at 34.29 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,15 +13904,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cecadce-d58e-42c7-9155-d80e960d4072")
-		)
-		(pin "2"
-			(uuid "84d26410-1763-4edf-9519-71f53df21915")
+			(uuid "2373cf5a-2030-4236-8e63-c61083cc59a2")
 		)
 		(instances
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
-					(reference "R9")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13484,7 +13917,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 213.36 143.51 180)
+		(at 218.44 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13492,7 +13925,7 @@
 		(dnp no)
 		(uuid "be8cb80d-e15b-43d0-a28f-8f85a3b09b9e")
 		(property "Reference" "H3"
-			(at 215.9 143.51 0)
+			(at 220.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13501,7 +13934,7 @@
 			)
 		)
 		(property "Value" "9774025360R"
-			(at 208.534 149.098 0)
+			(at 214.63 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13510,7 +13943,7 @@
 			)
 		)
 		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M3_H2.5mm_9774025360"
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,7 +13952,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025360R.pdf"
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13528,7 +13961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,7 +13970,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13546,7 +13979,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13555,7 +13988,7 @@
 			)
 		)
 		(property "DATASHEET-URL" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,7 +13997,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,7 +14006,7 @@
 			)
 		)
 		(property "GERDER" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13582,7 +14015,7 @@
 			)
 		)
 		(property "IR" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13591,7 +14024,7 @@
 			)
 		)
 		(property "MOUNT" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13600,7 +14033,7 @@
 			)
 		)
 		(property "PART-NUMBER" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +14042,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +14051,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +14060,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +14069,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,7 +14078,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +14087,7 @@
 			)
 		)
 		(property "VALUE" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,7 +14096,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
-			(at 213.36 143.51 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14063,7 +14496,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 219.71 140.97 180)
+		(at 224.79 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14071,7 +14504,7 @@
 		(dnp no)
 		(uuid "c90d20d8-a1b8-4888-bfa6-104de2f1f5cb")
 		(property "Reference" "D4"
-			(at 220.0275 135.89 0)
+			(at 224.536 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14079,7 +14512,7 @@
 			)
 		)
 		(property "Value" "CDSU101A"
-			(at 222.885 138.43 0)
+			(at 227.965 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14087,7 +14520,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14096,7 +14529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,7 +14538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14114,7 +14547,7 @@
 			)
 		)
 		(property "MPN" "CDSU101A"
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14123,7 +14556,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14132,7 +14565,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14141,7 +14574,7 @@
 			)
 		)
 		(property "DATASHEET-URL" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14150,7 +14583,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +14592,7 @@
 			)
 		)
 		(property "GERDER" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +14601,7 @@
 			)
 		)
 		(property "IR" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +14610,7 @@
 			)
 		)
 		(property "MOUNT" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +14619,7 @@
 			)
 		)
 		(property "PART-NUMBER" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +14628,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14637,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14646,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14655,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +14664,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +14673,7 @@
 			)
 		)
 		(property "VALUE" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,7 +14682,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
-			(at 219.71 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15156,6 +15589,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 232.41 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5bb5a1-74a7-4fa1-8d89-0191c876cb76")
+		(property "Reference" "#PWR030"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.537 135.2042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e51a11-994e-4021-98e3-fa5a5149f239")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 137.16 83.82 270)
 		(unit 1)
@@ -15351,6 +15849,436 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 49.53 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2495ba1-3b73-442b-be93-d9667baef754")
+		(property "Reference" "D1"
+			(at 49.8475 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CDSU101A"
+			(at 52.705 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CDSU101A"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a50a1c-aeac-4949-ba9c-b349b100ba2d")
+		)
+		(pin "2"
+			(uuid "0e832d55-ac03-43e3-8bee-bd009816be0d")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 212.09 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e71ca4f7-8f57-4ba0-90f3-8e0013049250")
+		(property "Reference" "D6"
+			(at 208.788 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Zener Prot"
+			(at 205.74 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af8eb8d6-c175-4138-b37d-a20a578c7c24")
+		)
+		(pin "2"
+			(uuid "4a8fefc6-d360-4200-8d26-38b027f44fc5")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15966,6 +16894,217 @@
 			(project "Soilsense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 62.23 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f55f3a85-9fcd-40f0-ac25-38f296304b93")
+		(property "Reference" "D2"
+			(at 57.15 174.9425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CDSU101A"
+			(at 59.69 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CDSU101A"
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GERDER" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IR" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 62.23 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49329852-6998-47f8-92b6-aeb7f783f84a")
+		)
+		(pin "2"
+			(uuid "b5e77412-f9fe-4cb6-8545-9c7f5f3bef56")
+		)
+		(instances
+			(project "Soilsense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"
+					(reference "D2")
 					(unit 1)
 				)
 			)

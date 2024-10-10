@@ -1,0 +1,21 @@
+G04 Filename: untitled.gtc*
+G04 FileFunction: Soldermask,Top*
+G04 Part: Single*
+G04 ProjectId: untitled,277ABC4AA217F593C48BEF8224D4D3E5,1*
+G04 GenerationSoftware: MathWorks,MATLAB,9.14.0.2337262 (R2023a) Update 5*
+G04 CreationDate: 2024-08-30T09:10:79+0200*
+G04 FilePolarity: Positive*
+%FSLAX16Y16*%
+%MOIN*%
+G04 Clear mask for SMT coax connector*
+G36*
+G01*
+X-0022303Y-0108268D02*
+X0174547D01*
+Y0088583D01*
+X-0022303D01*
+Y-0108268D01*
+D02*
+G37*
+G04 MD5: 9f93fd7663ffd8edec613a6d105e6559bafcfd9ef7ca8b3f9b3c18e4b238e36a6a98a6614459520a8c94779d1edfd78b78cf7fd394594721bbef68ae24f*
+M02*

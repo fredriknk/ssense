@@ -8,4 +8,5 @@
   (lib (name "693043020611")(type "KiCad")(uri "${KIPRJMOD}/lib/693043020611.pretty")(options "")(descr ""))
   (lib (name "inductor")(type "KiCad")(uri "${KIPRJMOD}/lib/Inductor/inductor.pretty")(options "")(descr ""))
   (lib (name "Soilsense")(type "KiCad")(uri "${KIPRJMOD}/lib/Soilsense.pretty")(options "")(descr ""))
+  (lib (name "ignion")(type "KiCad")(uri "${KIPRJMOD}/lib/ignion.pretty")(options "")(descr ""))
 )

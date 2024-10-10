@@ -1,0 +1,146 @@
+(footprint "IFA-0.12mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ifa antenna for 0.12m impedance matched stackup. optimized for 20x83mm gp")
+	(property "Reference" "REF**"
+		(at 10 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4c2d44b1-8506-4987-bda6-957a1d280140")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IFA-0.12mm"
+		(at 10 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88765962-6394-4a79-b086-593de3d86b50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84c3876c-369d-4aee-a749-92e975d70e8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d66ee8e4-9c41-4a2d-91b6-11a04d3afce8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cec7d59a-be09-44ea-baf9-3e340ec5f09c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -5.6)
+		(end 0.613 -1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "6ba45933-2afe-4393-a166-1f95fb767868")
+	)
+	(fp_rect
+		(start 0 -5.6)
+		(end 20.2 -6.072)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "79b33573-c222-4a46-831d-d7dec7690454")
+	)
+	(fp_rect
+		(start 1.713 -5.6)
+		(end 2.138 -1.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "dfe38791-0a14-4168-9f20-eded70fa018c")
+	)
+	(fp_line
+		(start 19.88 -5.5)
+		(end 19.88 -5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af3ab1ad-6148-4525-a382-4a1d412aacf8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fb8d210-3d24-4f46-b189-68543a646f53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.9255 -0.25)
+		(size 0.425 2)
+		(drill
+			(offset 0 -0.75)
+		)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "34f3bae6-3a08-48bb-bb95-b8f7fc919e96")
+	)
+	(pad "2" smd rect
+		(at 0.3065 0.25)
+		(size 0.613 2)
+		(drill
+			(offset 0 -0.75)
+		)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "cb2b49af-934a-4986-a7c3-d3cbb2de6198")
+	)
+)

@@ -1,21 +1,23 @@
 ﻿# ESP MethanSense
  
-![HEADER](./PICTURES/_PICTURE_.PNG)
+![HEADER](./PICTURES/OVERSIDE.PNG)
 
 Open hardware for a esp32 methane sensor utilizing MOX sensor
 
+[Assembly IBOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fredriknk/ssense/main/DOCUMENTATION/ibom.html)
+
 [PCB layout](./DOCUMENTATION/_PCBLAYOUT_.pdf)
 
-[SCHEMATIC](./DOCUMENTATION/_SCHEMATIC_.pdf)
+[SCHEMATIC](./DOCUMENTATION/Schematic.pdf)
 
 
 ## FRONT
 
-![Front](./PICTURES/_PICTURE_.PNG)
+![Front](./PICTURES/TOP.PNG)
 
 ## BACK
 
-![Back](./PICTURES/_PICTURE_.PNG)
+![Back](./PICTURES/BOTTOM.PNG)
 
 
 ## EXTRA INFO

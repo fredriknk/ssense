@@ -2,7 +2,7 @@
  
 ![HEADER](./PICTURES/OVERSIDE.png)
 
-Open hardware for a Zigbee nrf52833 soil moisture probe, It is designed for using M3 stainless steel rods as probes screwed into the headers H1,H2,H3. It is designed to run on a 3.6v AA SAFT battery, average current is in the sub uA range when sampling 5 times per hour. So battery life should be in the range of 5-10 years. 
+Open hardware for a Zigbee nrf52833 soil moisture probe, It is designed for using M3 stainless steel rods as probes screwed into the headers H1,H2,H3. It is designed to run on a 3.6v AA SAFT battery, average current is in the sub uA range when sampling 5 times per hour. So battery life should be in the range of 5-10 years. It has one 75mhz probe, one 1mhz probe (Variable frequency, so the plan is to do a frequency sweep with this to determine electrical conductivity in the medium) and a ground probe. It allso features a NFC coil, to pair the sensor with a gateway. And a temp sensor. 
 
 
 Check out the ibom tool for component placement and hand soldering
